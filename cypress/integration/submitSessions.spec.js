@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe("Submit sessions", () => {
+describe("Submit sessions 11111111111111111", () => {
     // Run before each test in this describe block
     beforeEach(() => {
         cy.visit("/conference");
