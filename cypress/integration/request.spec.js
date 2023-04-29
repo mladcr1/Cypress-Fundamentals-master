@@ -11,6 +11,7 @@ describe("Navigation", () => {
           expect(response.body).to.have.length(500);
           expect(response).to.have.property("headers");
           expect(response).to.have.property("duration");
+          expect(response).to.have.property("duration");
         });
     });
 });
