@@ -5,5 +5,6 @@ describe("Navigation", () => {
         cy.visit("http://localhost:1337/conference");
         cy.get("h1").contains("View Sessions").click();
         cy.url().should("include", "/session");
+        cy.url().should("include", "/session");
     });
 });
